@@ -1,6 +1,3 @@
-class main{
-    constructor(){}
-
     var a;
     var b;
     
@@ -8,10 +5,7 @@ class main{
     b = document.querySelector(".drugibroj").value;
     
     var dugme = document.querySelector("#dugme");
-    dugme.onclick = (ev) => this.izracunaj();
+    dugme.onclick = (ev) => this.izracunaj(){
+    };
     
-    izracunaj(){
-        var x = a+b;
-        alert(x);
-    }
-}
+    

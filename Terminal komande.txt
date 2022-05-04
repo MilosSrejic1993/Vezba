@@ -1,0 +1,19 @@
+pwd -> print working directory - stampa tekuci direktorijum ( pokazujeti gde se nalazis )
+ls -> list , lista sve foldere u tom direktorijumu
+cd -> change directory , menjas folder ( npr . cd Desktop , ulazis u folder Desktop)
+cd .. -> vracas se jedan folder unazad
+clear -> brises iz terminala
+mkdir -> pravis folder
+rmdir -> remove directory , brises direktorijum
+cp -> copy , cp ./staKopiras ./GdeKopiras , ./ => trenutni folder , ../prethodni folder
+mv -> move 
+
+
+git commands:
+
+prvo se pozicioniras u folder gde je git repozitorijum
+
+git status -> proverava promene
+git add * -> dodajes sve
+git commit -m 'poruka' -> komitujes uz poruku
+git push -> kacis na github 
